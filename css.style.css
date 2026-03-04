@@ -1,0 +1,10 @@
+body.dark{
+  background:#0f0f0f;
+  color:white;
+  font-family:Arial;
+  text-align:center;
+}
+
+.center-box{
+  margin-top:100px;
+}
