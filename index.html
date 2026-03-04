@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Strict AI</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark">
+
+  <div class="center-box">
+    <h1>STRICT AI</h1>
+    <p>Enter your main goal:</p>
+    <input id="goalInput" placeholder="Become disciplined, build physique, etc">
+    <button onclick="start()">Start</button>
+  </div>
+
+<script>
+function start(){
+  const goal = document.getElementById("goalInput").value;
+  localStorage.setItem("goal", goal);
+  window.location.href = "dashboard.html";
+}
+</script>
+
+</body>
+</html>
